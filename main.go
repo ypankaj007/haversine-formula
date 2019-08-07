@@ -29,8 +29,8 @@ type Point struct {
 // Harversine defines the Harversine formula
 type Harversine struct{}
 
-func degreeToRadius(degree float64) float64 {
-	return degree * π / 180 // convert degree to radius and return the value
+func degreeToRadius(θ float64) float64 {
+	return θ * π / 180 // convert degree to radius and return the value
 }
 
 // CalculateDistance takes two points as parameter,
