@@ -10,7 +10,7 @@ a = sin²(Δφ/2) + cos φ1 ⋅ cos φ2 ⋅ sin²(Δλ/2)
 c = 2 ⋅ atan2( √a, √(1−a) )
 d = R ⋅ c
 ```
-where Δφ = φ2 - φ1, Δλ = λ2 - λ1 and R is the Earth radius (6,371km)
+where Δφ = φ2 - φ1, Δλ = λ2 - λ1 and R is the Earth radius (63,71,000 m)
 
 
 License
